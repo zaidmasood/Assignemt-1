@@ -1,0 +1,164 @@
+#my {
+  zoom: 75%;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #007090;
+}
+
+h1 {
+  padding: 5px;
+
+  color: black;
+  font-variant: small-caps;
+  font-size: 50px;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Button {
+  background-color: #a0d0bf;
+  text-align: center;
+
+  width: 100%;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  width: 1715px;
+}
+
+.Buttons {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: palegreen;
+  color: black;
+  font-variant: small-caps;
+
+  font-size: 20px;
+  border: solid black;
+}
+
+#AddRow {
+  align-items: center;
+}
+#Inventory--text {
+  padding: 5px;
+
+  color: black;
+  font-variant: small-caps;
+  font-size: 40px;
+}
+.inputs {
+  width: 50%;
+}
+.material-id-selector {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+.infoinputs {
+  height: 30px;
+  width: 60%;
+  text-align: center;
+}
+#SalesTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+#Inventory {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#Customers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#salestableheader {
+  min-width: 150px;
+  padding: 10px;
+
+  align-items: center;
+  text-align: center;
+  margin-left: 0px;
+  max-height: 100px;
+}
+#SalesOrder {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#SalesInfo {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 1750px;
+  padding: 10px;
+  align-items: center;
+  max-height: 100px;
+  margin-left: 140px;
+}
+#CompanyNAme {
+  font-size: 50px;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  background-color: #a0d0bf;
+  max-height: 100px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+th {
+  background-color: #00000070;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+#if_no_orders {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 50px;
+}
+#previousordersheading {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+#Orderssummay {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.L {
+  padding: 10px;
+}
+.summaryheader {
+  background-color: #00000070;
+  font-weight: bold;
+  color: whitesmoke;
+}

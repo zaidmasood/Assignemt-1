@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WholeFoods Inventory Management</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="Header">WholeFoods Inventory Management</h1>
+    <div class="Button">
+      <button type="button" class="Buttons" id="Display--Inventory">
+        Display Inventory
+      </button>
+      <button type="button" class="Buttons" id="Display--Customers">
+        Display Customers
+      </button>
+      <button type="button" class="Buttons" id="Display--Sales">
+        Create Sales Order
+      </button>
+      <button type="button" class="Buttons" id="Display--Orders">
+        Display Previous Sales Orders
+      </button>
+    </div>
+
+    <h2 id="Inventory--text">Whole Foods Inventory</h2>
+    <div id="Tables">
+      <table id="Inventory"></table>
+      <table id="Customers"></table>
+    </div>
+    <div id="SalesOrder">
+      <p id="CompanyNAme">WholeFoods, Jhang</p>
+      <p>138 Iqbal Road, Jhang, Pakistan +92-333-555-1212 wholefoods@wfj.com</p>
+      <table id="SalesInfo"></table>
+      <button type="button" class="Buttons" id="AddRow">
+        Create New Order
+      </button>
+      <button type="button" class="Buttons" id="NewOrder">
+        Create New Order
+      </button>
+
+      <table id="SalesTable"></table>
+      <button type="button" class="Buttons L" id="Validate">Save Item</button>
+      <button type="button" class="Buttons L" id="SaveOrder">Save Order</button>
+    </div>
+    <div id="PreviousOrders">
+      <p id="previousordersheading">Orders Summary</p>
+      <table id="Orderssummay"></table>
+      <p id="if_no_orders">There are no Previous Orders</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
